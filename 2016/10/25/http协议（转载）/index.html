@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="http," />
 
 
 
@@ -84,15 +84,34 @@
 
 
 
-<meta name="description" content="Creative&amp;&amp;Technology">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Sun_XiaoD博客">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="###HTTP协议详解
+
+全称：超文本传输协议(HyperText Transfer Protocol)
+作用：设计之初是为了将超文本标记语言(HTML)文档从Web服务器传送到客户端的浏览器。现在http的作用已不局限于HTML的传输。
+版本：http/1.0http/1.1*http/2.0
+
+###URL详解一个示例URLhttp://www.mywebsite.com/sj/test;id">
+<meta property="og:type" content="article">
+<meta property="og:title" content="http协议详解（转载）">
+<meta property="og:url" content="http://yoursite.com/2016/10/25/http协议（转载）/index.html">
 <meta property="og:site_name" content="Sun_XiaoD博客">
-<meta property="og:description" content="Creative&amp;&amp;Technology">
+<meta property="og:description" content="###HTTP协议详解
+
+全称：超文本传输协议(HyperText Transfer Protocol)
+作用：设计之初是为了将超文本标记语言(HTML)文档从Web服务器传送到客户端的浏览器。现在http的作用已不局限于HTML的传输。
+版本：http/1.0http/1.1*http/2.0
+
+###URL详解一个示例URLhttp://www.mywebsite.com/sj/test;id">
+<meta property="og:updated_time" content="2016-10-25T02:28:17.569Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Sun_XiaoD博客">
-<meta name="twitter:description" content="Creative&amp;&amp;Technology">
+<meta name="twitter:title" content="http协议详解（转载）">
+<meta name="twitter:description" content="###HTTP协议详解
+
+全称：超文本传输协议(HyperText Transfer Protocol)
+作用：设计之初是为了将超文本标记语言(HTML)文档从Web服务器传送到客户端的浏览器。现在http的作用已不局限于HTML的传输。
+版本：http/1.0http/1.1*http/2.0
+
+###URL详解一个示例URLhttp://www.mywebsite.com/sj/test;id">
 
 
 
@@ -113,10 +132,10 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2016/10/25/http协议（转载）/"/>
 
 
-  <title> Sun_XiaoD博客 </title>
+  <title> http协议详解（转载） | Sun_XiaoD博客 </title>
 </head>
 
 <body itemscope itemtype="//schema.org/WebPage" lang="zh-Hans">
@@ -137,9 +156,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="//schema.org/WPHeader">
@@ -226,9 +243,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -248,10 +265,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/10/25/http协议（转载）/" itemprop="url">
-                  http协议详解（转载）
-                </a>
+                http协议详解（转载）
               
             
           </h1>
@@ -298,9 +312,7 @@
       
 
       
-        
-          
-            <p>###HTTP协议详解</p>
+        <p>###HTTP协议详解</p>
 <ul>
 <li>全称：超文本传输协议(HyperText Transfer Protocol)</li>
 <li>作用：设计之初是为了将超文本标记语言(HTML)文档从Web服务器传送到客户端的浏览器。现在http的作用已不局限于HTML的传输。</li>
@@ -401,138 +413,94 @@
 <p><strong>Transport头域</strong></p>
 <h6 id="Connection-1"><a href="#Connection-1" class="headerlink" title="Connection"></a>Connection</h6><p>用法与作用：<br>Connection: keep-alive：当一个网页打开完成后，客户端和服务器之间用于传输HTTP数据的TCP连接不会关闭，如果客户端再次访问这个服务器上的网页，会继续使用这一条已经建立的连接<br>Connection: close：代表一个Request完成后，客户端和服务器之间用于传输HTTP数据的TCP连接会关闭， 当客户端再次发送Request，需要重新建立TCP连接<br><strong>Location头域</strong><br>Location<br>用法：Location：<a href="http://ce.sysu.edu.cn/hope/" target="_blank" rel="external">http://ce.sysu.edu.cn/hope/</a><br>作用： 用于重定向一个新的位置， 包含新的URL地址</p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
+        
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>有钱的捧个钱场！您的支持将鼓励我继续创作！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/images/weixn.jpg" alt="Sun_XiaoD WeChat Pay"/>
+          <p>微信打赏</p>
+        </div>
+      
+      
     </div>
+  </div>
 
-    <div>
+
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="//schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/10/20/第一章/" itemprop="url">
-                  第一章
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-10-19T17:09:39Z" content="2016-10-19">
-              2016-10-19
-            </time>
-          </span>
-
+        <div class="post-tags">
           
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/10/20/第一章/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/20/第一章/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
+            <a href="/tags/http/" rel="tag">#http</a>
           
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h3 id="题首"><a href="#题首" class="headerlink" title="题首"></a>题首</h3><p>开博吸纳<br>谦客皆说</p>
-<p>每个人都是巨人的存在<br>站在巨人的肩上<br>方可<br>视野广博<br>一家极客</p>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/10/20/第一章/" rel="next" title="第一章">
+                <i class="fa fa-chevron-left"></i> 第一章
+              </a>
+            
+          </div>
 
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+        <div class="ds-share flat" data-thread-key="2016/10/25/http协议（转载）/"
+     data-title="http协议详解（转载）"
+     data-content=""
+     data-url="http://yoursite.com/2016/10/25/http协议（转载）/">
+  <div class="ds-share-inline">
+    <ul  class="ds-share-icons-16">
+
+      <li data-toggle="ds-share-icons-more"><a class="ds-more" href="javascript:void(0);">分享到：</a></li>
+      <li><a class="ds-weibo" href="javascript:void(0);" data-service="weibo">微博</a></li>
+      <li><a class="ds-qzone" href="javascript:void(0);" data-service="qzone">QQ空间</a></li>
+      <li><a class="ds-qqt" href="javascript:void(0);" data-service="qqt">腾讯微博</a></li>
+      <li><a class="ds-wechat" href="javascript:void(0);" data-service="wechat">微信</a></li>
+
+    </ul>
+    <div class="ds-share-icons-more">
+    </div>
+  </div>
+</div>
+      
+    </div>
+  </div>
 
 
           </div>
@@ -540,6 +508,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/10/25/http协议（转载）/"
+           data-title="http协议详解（转载）" data-url="http://yoursite.com/2016/10/25/http协议（转载）/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -559,8 +535,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="//schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -647,6 +632,17 @@
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-6"><a class="nav-link" href="#If-Modified-Since"><span class="nav-number">1.</span> <span class="nav-text">If-Modified-Since</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#If-None-Match"><span class="nav-number">2.</span> <span class="nav-text">If-None-Match</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Pragma：Pragma-no-cache"><span class="nav-number">3.</span> <span class="nav-text">Pragma：Pragma: no-cache</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Cache-Control"><span class="nav-number">4.</span> <span class="nav-text">Cache-Control</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Accept"><span class="nav-number">5.</span> <span class="nav-text">Accept</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Accept-Encoding"><span class="nav-number">6.</span> <span class="nav-text">Accept-Encoding</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Accept-Language"><span class="nav-number">7.</span> <span class="nav-text">Accept-Language</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#User-Agent"><span class="nav-number">8.</span> <span class="nav-text">User-Agent</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Accept-Charset"><span class="nav-number">9.</span> <span class="nav-text">Accept-Charset</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Cookie"><span class="nav-number">10.</span> <span class="nav-text">Cookie</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Content-Length"><span class="nav-number">11.</span> <span class="nav-text">Content-Length</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Content-Type"><span class="nav-number">12.</span> <span class="nav-text">Content-Type</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Referer"><span class="nav-number">13.</span> <span class="nav-text">Referer</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Connection"><span class="nav-number">14.</span> <span class="nav-text">Connection</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Host"><span class="nav-number">15.</span> <span class="nav-text">Host</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Cache-头域"><span class="nav-number">16.</span> <span class="nav-text">Cache 头域</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Cookie-Login-头域"><span class="nav-number">17.</span> <span class="nav-text">Cookie/Login 头域</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Entity-头域"><span class="nav-number">18.</span> <span class="nav-text">Entity 头域</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Last-Modified"><span class="nav-number">19.</span> <span class="nav-text">Last-Modified</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Content-Type-1"><span class="nav-number">20.</span> <span class="nav-text">Content-Type</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Content-Encoding"><span class="nav-number">21.</span> <span class="nav-text">Content-Encoding</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Content-Language"><span class="nav-number">22.</span> <span class="nav-text">Content-Language</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Server"><span class="nav-number">23.</span> <span class="nav-text">Server</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#X-AspNet-Version"><span class="nav-number">24.</span> <span class="nav-text">X-AspNet-Version</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#X-Powered-By"><span class="nav-number">25.</span> <span class="nav-text">X-Powered-By</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#Connection-1"><span class="nav-number">26.</span> <span class="nav-text">Connection</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -750,6 +746,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.2"></script>
+
+
 
   
 
